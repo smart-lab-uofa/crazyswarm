@@ -3,11 +3,15 @@ crazyflies:
     channel: 120
     initialPosition: [0.0, 0.0, 0.0]
     type: default
-  - id: 2
-    channel: 110
-    initialPosition: [0.5, 0.0, 0.0]
-    type: default
-  - id: 3
-    channel: 100
-    initialPosition: [-0.5, 0.0, 0.0]
-    type: default
+  # - id: 2
+  #   channel: 110
+  #   initialPosition: [0.5, 0.0, 0.0]
+  #   type: default
+  # - id: 3
+  #   channel: 100
+  #   initialPosition: [-0.5, 0.0, 0.0]
+  #   type: default
+  # - id: 4
+  #   channel: 90
+  #   initialPosition: [0.0, 0.5, 0.0]
+  #   type: default
