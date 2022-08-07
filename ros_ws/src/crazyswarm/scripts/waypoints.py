@@ -55,7 +55,7 @@ if __name__ == "__main__":
     allcfs = swarm.allcfs
 
     allcfs.takeoff(targetHeight=1.0, duration=2.0)
-    timeHelper.sleep(2.0)
+    timeHelper.sleep(3.0)
     lastTime = 0.0
     for waypoint in waypoints:
         if waypoint.arrival == 0:

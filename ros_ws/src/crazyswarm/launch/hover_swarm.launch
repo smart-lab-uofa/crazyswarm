@@ -18,7 +18,7 @@
           enHighLevel: 1
         stabilizer:
           estimator: 2 # 1: complementary, 2: kalman
-          controller: 1 # 1: PID, 2: mellinger
+          controller: 2 # 1: PID, 2: mellinger
         ring:
           effect: 16 # 6: double spinner, 7: solid color, 16: packetRate
           solidBlue: 255 # if set to solid color
@@ -33,7 +33,7 @@
       # tracking
       motion_capture_type: "vicon"
       object_tracking_type: "libobjecttracker" # one of motionCapture,libobjecttracker
-      send_position_only: False # set to False to send position+orientation; set to True to send position only
+      send_position_only: True # set to False to send position+orientation; set to True to send position only
       motion_capture_host_name: "192.168.1.1"
       # motion_capture_interface_ip: "" # optional for optitrack with multiple interfaces
       save_point_clouds: "/dev/null" # set to a valid path to log mocap point cloud binary file.
@@ -42,7 +42,7 @@
       force_no_cache: False
       enable_parameters: True
       enable_logging: False
-      enable_logging_pose: True
+      enable_logging_pose: False
     </rosparam>
   </node>
 
